@@ -1,0 +1,10 @@
+{
+  "Card de projeto": {
+    "scope": "javascript",
+    "prefix": "cardprojeto",
+    "description": "Insere um novo objeto de projeto na lista projetos",
+    "body": [
+      "{ titulo: \"${1:Título do projeto}\", descricao: \"${2:Descrição curta}\", tecnologia: \"${3:HTML + CSS + JS}\", link: \"${4:https://}\" },$0"
+    ]
+  }
+}

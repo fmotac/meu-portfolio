@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio | Dev Iniciante</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1 class="logo">&lt;Dev/&gt;</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="hero">
+      <h2>Olá, eu sou <span class="destaque">Ana Souza</span> 👋</h2>
+      <p>Estou aprendendo programação web com a ajuda da Inteligência Artificial.</p>
+      <button id="btnTema">Alternar tema</button>
+    </section>
+
+    <section id="projetos">
+      <h2>Meus projetos</h2>
+      <div class="cards" id="listaProjetos"></div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+        <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="retorno"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com VS Code + IA · 2026</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
